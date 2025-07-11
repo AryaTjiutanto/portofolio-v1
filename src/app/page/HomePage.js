@@ -1,26 +1,16 @@
 'use client';
 
-import Image from "next/image";
 import { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faInstagram, faLinkedin, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import Link from "next/link";
-import { faClipboard, faEnvelope, faWindowMaximize } from "@fortawesome/free-regular-svg-icons";
-import SmoothScroll from "../components/smoothScroll";
 import ColorThemeSlider from "../components/ui/ColorThemeSlider";
 import VerticalGridLines from "../components/ui/VerticalGridLines";
-import { faArrowRight, faInfo, faMinus, faWindowMinimize, faX } from "@fortawesome/free-solid-svg-icons";
-import { faStar } from "@fortawesome/free-regular-svg-icons";
 import Footer from "../components/ui/Footer";
-import CursorCircle from "../components/CursorCircle";
-import SyntaxHighlighter from "react-syntax-highlighter";
-import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 import AboutMe from "../components/homepage/AboutMe";
 import YoutubeSection from "../components/homepage/YoutubeSection";
 import HeroSection from "../components/homepage/HeroSection";
 import MySpecialitiesSection from "../components/homepage/MySpecialitiesSection";
 import MySkillsSection from "../components/homepage/MySkillsSection";
 import Navbar from "../components/ui/Navbar";
+import SmoothScroll from "../components/SmoothScroll";
 
 export default function HomePage () {
     // code
