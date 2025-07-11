@@ -11,6 +11,7 @@ import MySpecialitiesSection from "../components/homepage/MySpecialitiesSection"
 import MySkillsSection from "../components/homepage/MySkillsSection";
 import Navbar from "../components/ui/Navbar";
 import SmoothScroll from "../components/SmoothScroll";
+import LoaderWrapper from "../components/ui/loader";
 
 export default function HomePage () {
     // code
@@ -48,6 +49,7 @@ export default function HomePage () {
 
     return (
         <div className={`${colorTheme[activeColorThemeIndex].backgroundColor} selection:bg-indigo-500 w-full min-h-screen relative overflow-x-hidden`}>
+            <LoaderWrapper/>
             {/* smooth scroll */}
             <SmoothScroll/>
 
