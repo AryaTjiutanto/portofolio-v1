@@ -27,7 +27,7 @@ const HeroSection = ({colorThemeData}) => {
                         Whatsapp
                     </span>
                 </Link>
-                <Link href="mailto:aryatjiu.dev@gmail.com" className={`md:rotate-90 ${colorThemeData.descriptionTextColor} ${colorThemeData.textHoverRedColor} flex items-center space-x-1 duration-150`}>
+                <Link href="mailto:aryatjiutanto.dev@gmail.com" className={`md:rotate-90 ${colorThemeData.descriptionTextColor} ${colorThemeData.textHoverRedColor} flex items-center space-x-1 duration-150`}>
                     <FontAwesomeIcon icon={faEnvelope} />
                     <span>
                         Email

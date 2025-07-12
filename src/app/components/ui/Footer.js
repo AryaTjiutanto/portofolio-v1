@@ -34,7 +34,7 @@ const Footer = ({colorThemeData}) => {
                     Whatsapp
                     </span>
                 </Link>
-                <Link href="mailto:aryatjiu.dev@gmail.com" class={`text-lg ${colorThemeData.descriptionTextColor} ${colorThemeData.textHoverRedColor} flex items-center space-x-1 duration-150`}>
+                <Link href="mailto:aryatjiutanto.dev@gmail.com" class={`text-lg ${colorThemeData.descriptionTextColor} ${colorThemeData.textHoverRedColor} flex items-center space-x-1 duration-150`}>
                     <FontAwesomeIcon icon={faEnvelope} />
                     <span>
                     Email
