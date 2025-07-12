@@ -16,7 +16,7 @@ const Footer = ({colorThemeData}) => {
                 </Link>
             </div>
             <div className="flex flex-wrap md:items-center md:space-x-10 mt-14 md:mt-20 gap-3">
-                <Link href="https://github.com/AryaTjiu" target="_blank" class={`text-lg ${colorThemeData.descriptionTextColor} ${colorThemeData.textHoverSlateColor} flex items-center space-x-1 duration-150`}>
+                <Link href="https://github.com/AryaTjiutanto" target="_blank" class={`text-lg ${colorThemeData.descriptionTextColor} ${colorThemeData.textHoverSlateColor} flex items-center space-x-1 duration-150`}>
                     <FontAwesomeIcon icon={faGithub} />
                     <span>
                     Github

@@ -9,7 +9,7 @@ const HeroSection = ({colorThemeData}) => {
         <section className={`w-full min-h-screen flex items-center px-10 md:px-36 lg:px-44 xl:px-52 2xl:px-96 duration-150 relative`}>
             {/* social media links */}
             <div className={`absolute w-5 h-fit bottom-0 md:top-20 md:right-10 z-10 space-y-20 hidden md:inline-block`}>
-                <Link href="https://github.com/AryaTjiu" target="_blank" className={`md:rotate-90 ${colorThemeData.descriptionTextColor} ${colorThemeData.textHoverSlateColor} flex items-center space-x-1 duration-150`}>
+                <Link href="https://github.com/AryaTjiutanto" target="_blank" className={`md:rotate-90 ${colorThemeData.descriptionTextColor} ${colorThemeData.textHoverSlateColor} flex items-center space-x-1 duration-150`}>
                     <FontAwesomeIcon icon={faGithub} />
                     <span>
                     Github
