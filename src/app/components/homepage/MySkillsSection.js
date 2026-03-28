@@ -60,7 +60,8 @@ const MySkillsSection = ({colorThemeData}) => {
                             <span className="text-red-400">"alpine-js"</span>: <span className="text-green-300">"latest"</span>,<br />
                             <span className="text-red-400">"react-js"</span>: <span className="text-green-300">"latest"</span>,<br />
                             <span className="text-red-400">"laravel"</span>: <span className="text-green-300">"latest"</span>,<br />
-                            <span className="text-red-400">"typescript"</span>: <span className="text-green-300">"latest"</span>,
+                            <span className="text-red-400">"typescript"</span>: <span className="text-green-300">"latest"</span>,<br />
+                            <span className="text-red-400">"express"</span>: <span className="text-green-300">"latest"</span>,
                         </div>
                         </div>
                     </li>
