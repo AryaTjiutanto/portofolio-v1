@@ -15,6 +15,11 @@ export const metadata = {
     'Tailwind CSS',
     'Portfolio',
     'Web Developer Indonesia',
+    'Freelance Web Developer Indonesia',
+    'React Developer Portfolio',
+    'MERN Stack Portfolio',
+    'TALL Stack Portfolio',
+    'Laravel Developer Indonesia',
   ],
 
   authors: [{ name: 'Arya Tjiutanto', url: 'https://aryatjiutanto.my.id' }],
@@ -59,6 +64,6 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <HomePage/>
+    <HomePage />
   )
 }

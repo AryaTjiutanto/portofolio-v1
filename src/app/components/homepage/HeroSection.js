@@ -57,7 +57,7 @@ const HeroSection = ({colorThemeData}) => {
                 React.js
                 </span>, {" "}
                 <span className={`font-medium bg-gradient-to-r ${colorThemeData.gradientNext} text-transparent bg-clip-text`}>
-                Next.js
+                Express
                 </span>, badminton, and Chicken noodles.
             </p>
             </div>

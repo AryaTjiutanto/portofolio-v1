@@ -37,7 +37,8 @@ const MySkillsSection = ({colorThemeData}) => {
                         <div className="cursor-text w-full p-2 pr-4 bg-neutral-900 text-white flex justify-between items-start group">
                         <div className="text-left font-mono">
                             <span className="text-red-400">"my-sql"</span>: <span className="text-green-300">"latest"</span>,<br />
-                            <span className="text-red-400">"firestore"</span>: <span className="text-green-300">"latest"</span>,<br />
+                            <span className="text-red-400">"mongodb"</span>: <span className="text-green-300">"latest"</span>,<br />
+                            <span className="text-red-400">"redis"</span>: <span className="text-green-300">"latest"</span>,<br />
                         </div>
                         </div>
                     </li>
@@ -56,10 +57,10 @@ const MySkillsSection = ({colorThemeData}) => {
                         <div className="text-left font-mono">
                             <span className="text-red-400">"git"</span>: <span className="text-green-300">"latest"</span>,<br />
                             <span className="text-red-400">"tailwind-css"</span>: <span className="text-green-300">"latest"</span>,<br />
+                            <span className="text-red-400">"alpine-js"</span>: <span className="text-green-300">"latest"</span>,<br />
                             <span className="text-red-400">"react-js"</span>: <span className="text-green-300">"latest"</span>,<br />
-                            <span className="text-red-400">"next-js"</span>: <span className="text-green-300">"latest"</span>,<br />
                             <span className="text-red-400">"laravel"</span>: <span className="text-green-300">"latest"</span>,<br />
-                            <span className="text-red-400">"alpine-js"</span>: <span className="text-green-300">"latest"</span>,
+                            <span className="text-red-400">"typescript"</span>: <span className="text-green-300">"latest"</span>,
                         </div>
                         </div>
                     </li>

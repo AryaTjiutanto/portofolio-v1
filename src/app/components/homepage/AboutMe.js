@@ -187,7 +187,7 @@ const AboutMe = ({colorThemeData}) => {
                     I'm Arya Tjiutanto
                 </h1>
                 <p className={`mt-5 text-lg md:text-2xl xl:text-lg 2xl:text-2xl ${colorThemeData.descriptionTextColor} text-justify xl:text-left`}>
-                    I have nearly 3 years of experience in web development. I'm also a freelancer working with international clients.  
+                    I have nearly 3 years of experience in web development.
                     I understand how a high-quality website can boost user satisfaction and engagement.  
                     If you're looking to build a website, feel free to contact me — especially if it's with Laravel or React. I'm practically married to both of them!
                 </p>

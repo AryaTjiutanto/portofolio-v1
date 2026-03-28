@@ -16,31 +16,31 @@ const Footer = ({colorThemeData}) => {
                 </Link>
             </div>
             <div className="flex flex-wrap md:items-center md:space-x-10 mt-14 md:mt-20 gap-3">
-                <Link href="https://github.com/AryaTjiutanto" target="_blank" class={`text-lg ${colorThemeData.descriptionTextColor} ${colorThemeData.textHoverSlateColor} flex items-center space-x-1 duration-150`}>
+                <Link href="https://github.com/AryaTjiutanto" target="_blank" className={`text-lg ${colorThemeData.descriptionTextColor} ${colorThemeData.textHoverSlateColor} flex items-center space-x-1 duration-150`}>
                     <FontAwesomeIcon icon={faGithub} />
                     <span>
                     Github
                     </span>
                 </Link>
-                <Link href="https://www.linkedin.com/in/arya-tjiutanto-4969a5295/" target="_blank" class={`text-lg ${colorThemeData.descriptionTextColor} ${colorThemeData.textHoverSkyBlueColor} flex items-center space-x-1 duration-150`}>
+                <Link href="https://www.linkedin.com/in/arya-tjiutanto-4969a5295/" target="_blank" className={`text-lg ${colorThemeData.descriptionTextColor} ${colorThemeData.textHoverSkyBlueColor} flex items-center space-x-1 duration-150`}>
                     <FontAwesomeIcon icon={faLinkedin} />
                     <span>
                     LinkedIn
                     </span>
                 </Link>
-                <Link href="https://wa.me/6285183105812" target="_blank" class={`text-lg ${colorThemeData.descriptionTextColor} ${colorThemeData.textHoverEmeraldColor} flex items-center space-x-1 duration-150`}>
+                <Link href="https://wa.me/6285183105812" target="_blank" className={`text-lg ${colorThemeData.descriptionTextColor} ${colorThemeData.textHoverEmeraldColor} flex items-center space-x-1 duration-150`}>
                     <FontAwesomeIcon icon={faWhatsapp} />
                     <span>
                     Whatsapp
                     </span>
                 </Link>
-                <Link href="mailto:aryatjiutanto.dev@gmail.com" class={`text-lg ${colorThemeData.descriptionTextColor} ${colorThemeData.textHoverRedColor} flex items-center space-x-1 duration-150`}>
+                <Link href="mailto:aryatjiutanto.dev@gmail.com" className={`text-lg ${colorThemeData.descriptionTextColor} ${colorThemeData.textHoverRedColor} flex items-center space-x-1 duration-150`}>
                     <FontAwesomeIcon icon={faEnvelope} />
                     <span>
                     Email
                     </span>
                 </Link>
-                <Link target="_blank" href="https://www.fiverr.com/antelocode" class={`text-lg ${colorThemeData.descriptionTextColor} ${colorThemeData.textHoverEmeraldColor} flex items-center space-x-1 duration-150`}>
+                <Link target="_blank" href="https://www.fiverr.com/antelocode" className={`text-lg ${colorThemeData.descriptionTextColor} ${colorThemeData.textHoverEmeraldColor} flex items-center space-x-1 duration-150`}>
                     <span>
                         Fiverr
                     </span>
