@@ -1,70 +1,82 @@
 const MySkillsSection = () => {
     return (
-        <section className={`w-full gap-x-20 place-items-center px-10 md:px-36 xl:px-52 2xl:px-96 duration-100 relative overflow-x-hidden py-12 md:py-32 z-[2]`}>
+        <section className={`w-full gap-x-20 place-items-center px-10 md:px-36 xl:px-40 2xl:px-96 duration-100 relative overflow-x-hidden py-12 md:py-32 z-[2]`}>
             <h1 className={`text-3xl md:text-6xl text-center font-semibold z-10 text-neutral-100`}>
-            My Skills
+                My Skills
             </h1>
             <div className={`w-full grid lg:grid-cols-3 gap-5 mt-16`}>
                 <div className={`w-full h-full p-5 py-7 border rounded-md bg-neutral-900 border-neutral-600 z-10 selection:bg-sky-600 z-[2]`}>
-                    <div className="w-fit p-2 bg-neutral-900 border-b border-neutral-950">
-                    <h1 className={`text-sm w-full text-orange-200 text-neutral-100`}>
-                        languages.json
-                    </h1>
+                    <div className="w-fit p-2 bg-neutral-900">
+                        <h1 className={`text-sm w-full text-orange-200 text-neutral-100`}>
+                            languages.json
+                        </h1>
                     </div>
 
                     <ul className="flex flex-col gap-1">
-                    <li>
-                        <div className="cursor-text w-full p-2 pr-4 bg-neutral-900 text-white flex justify-between items-start group">
-                        <div className="text-left font-mono">
-                            <span className="text-red-400">"html"</span>: <span className="text-green-300">"latest"</span>,<br />
-                            <span className="text-red-400">"css"</span>: <span className="text-green-300">"latest"</span>,<br />
-                            <span className="text-red-400">"javascript"</span>: <span className="text-green-300">"latest"</span>,<br />
-                            <span className="text-red-400">"php"</span>: <span className="text-green-300">"latest"</span>,<br />
-                        </div>
-                        </div>
-                    </li>
+                        <li>
+                            <div className="cursor-text w-full p-2 pr-4 bg-neutral-900 text-white flex justify-between items-start group">
+                                <div>
+                                    <div className="text-orange-300">{"{"}</div>
+                                    <div className="text-left font-mono pl-4">
+                                        <span className="text-red-400">"html"</span>: <span className="text-green-300">"latest"</span>,<br />
+                                        <span className="text-red-400">"css"</span>: <span className="text-green-300">"latest"</span>,<br />
+                                        <span className="text-red-400">"javascript"</span>: <span className="text-green-300">"latest"</span>,<br />
+                                        <span className="text-red-400">"typescript"</span>: <span className="text-green-300">"latest"</span>,<br />
+                                        <span className="text-red-400">"php"</span>: <span className="text-green-300">"latest"</span>,<br />
+                                    </div>
+                                    <div className="text-orange-300">{"}"}</div>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
                 <div className={`w-full h-full p-5 py-7 border rounded-md bg-neutral-900 border-neutral-600 z-10 selection:bg-sky-600`}>
-                    <div className="w-fit p-2 bg-neutral-900 border-b border-neutral-950">
-                    <h1 className={`text-sm w-full text-orange-200 text-neutral-100`}>
-                        databases.json
-                    </h1>
+                    <div className="w-fit p-2 bg-neutral-900">
+                        <h1 className={`text-sm w-full text-orange-200 text-neutral-100`}>
+                            databases.json
+                        </h1>
                     </div>
 
                     <ul className="flex flex-col gap-1">
-                    <li>
-                        <div className="cursor-text w-full p-2 pr-4 bg-neutral-900 text-white flex justify-between items-start group">
-                        <div className="text-left font-mono">
-                            <span className="text-red-400">"my-sql"</span>: <span className="text-green-300">"latest"</span>,<br />
-                            <span className="text-red-400">"mongodb"</span>: <span className="text-green-300">"latest"</span>,<br />
-                            <span className="text-red-400">"redis"</span>: <span className="text-green-300">"latest"</span>,<br />
-                        </div>
-                        </div>
-                    </li>
+                        <li>
+                            <div className="cursor-text w-full p-2 pr-4 bg-neutral-900 text-white flex justify-between items-start group">
+                                <div>
+                                    <div className="text-orange-300">{"{"}</div>
+                                    <div className="text-left font-mono pl-4">
+                                        <span className="text-red-400">"my-sql"</span>: <span className="text-green-300">"latest"</span>,<br />
+                                        <span className="text-red-400">"mongodb"</span>: <span className="text-green-300">"latest"</span>,<br />
+                                        <span className="text-red-400">"redis"</span>: <span className="text-green-300">"latest"</span>,<br />
+                                    </div>
+                                    <div className="text-orange-300">{"}"}</div>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
                 <div className={`w-full h-full p-5 py-7 border rounded-md bg-neutral-900 border-neutral-600 z-10 selection:bg-sky-600`}>
-                    <div className="w-fit p-2 bg-neutral-900 border-b border-neutral-950">
-                    <h1 className={`text-sm w-full text-orange-200 text-neutral-100`}>
-                        technologies.json
-                    </h1>
+                    <div className="w-fit p-2 bg-neutral-900">
+                        <h1 className={`text-sm w-full text-orange-200 text-neutral-100`}>
+                            technologies.json
+                        </h1>
                     </div>
 
                     <ul className="flex flex-col gap-1">
-                    <li>
-                        <div className="cursor-text w-full p-2 pr-4 bg-neutral-900 text-white flex justify-between items-start group">
-                        <div className="text-left font-mono">
-                            <span className="text-red-400">"git"</span>: <span className="text-green-300">"latest"</span>,<br />
-                            <span className="text-red-400">"tailwind-css"</span>: <span className="text-green-300">"latest"</span>,<br />
-                            <span className="text-red-400">"alpine-js"</span>: <span className="text-green-300">"latest"</span>,<br />
-                            <span className="text-red-400">"react-js"</span>: <span className="text-green-300">"latest"</span>,<br />
-                            <span className="text-red-400">"laravel"</span>: <span className="text-green-300">"latest"</span>,<br />
-                            <span className="text-red-400">"typescript"</span>: <span className="text-green-300">"latest"</span>,<br />
-                            <span className="text-red-400">"express"</span>: <span className="text-green-300">"latest"</span>,
-                        </div>
-                        </div>
-                    </li>
+                        <li>
+                            <div className="cursor-text w-full p-2 pr-4 bg-neutral-900 text-white flex justify-between items-start group">
+                                <div>
+                                    <div className="text-orange-300">{"{"}</div>
+                                    <div className="text-left font-mono pl-4">
+                                        <span className="text-red-400">"git"</span>: <span className="text-green-300">"latest"</span>,<br />
+                                        <span className="text-red-400">"tailwind-css"</span>: <span className="text-green-300">"latest"</span>,<br />
+                                        <span className="text-red-400">"alpine-js"</span>: <span className="text-green-300">"latest"</span>,<br />
+                                        <span className="text-red-400">"react-js"</span>: <span className="text-green-300">"latest"</span>,<br />
+                                        <span className="text-red-400">"laravel"</span>: <span className="text-green-300">"latest"</span>,<br />
+                                        <span className="text-red-400">"express"</span>: <span className="text-green-300">"latest"</span>,
+                                    </div>
+                                    <div className="text-orange-300">{"}"}</div>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>

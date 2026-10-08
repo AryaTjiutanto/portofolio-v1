@@ -11,40 +11,44 @@ import MySkillsSection from "../components/homepage/MySkillsSection";
 import Navbar from "../components/ui/Navbar";
 import SmoothScroll from "../components/SmoothScroll";
 import LoaderWrapper from "../components/ui/loader";
+import MyProject from "../components/homepage/MyProjects";
 
-export default function HomePage () {
+export default function HomePage() {
     return (
-        <div className={`bg-neutral-900 selection:bg-indigo-500 w-full min-h-screen relative overflow-x-hidden`}>
-            <LoaderWrapper/>
+        <div className={`bg-neutral-950 selection:bg-indigo-500 w-full min-h-screen relative overflow-x-hidden`}>
+            <LoaderWrapper />
             {/* smooth scroll */}
-            <SmoothScroll/>
+            <SmoothScroll />
 
             {/* color slider */}
-            <ColorThemeSlider/>
+            <ColorThemeSlider />
 
             {/* vertical grid line */}
-            <VerticalGridLines/>
+            <VerticalGridLines />
 
             {/* navigation */}
-            <Navbar/>
-            
+            <Navbar />
+
             {/* hero section */}
-            <HeroSection/>
+            <HeroSection />
 
             {/* about me section */}
-            <AboutMe/>
+            <AboutMe />
 
             {/* My Specialities */}
-            <MySpecialitiesSection/>
+            {/* <MySpecialitiesSection/> */}
 
             {/* skills */}
-            <MySkillsSection/>
-            
+            <MySkillsSection />
+
+            {/* My Projects */}
+            {/* <MyProject /> */}
+
             {/* youtube */}
-            <YoutubeSection/>
+            <YoutubeSection />
 
             {/* footer */}
-            <Footer/>
+            <Footer />
         </div>
     );
 }

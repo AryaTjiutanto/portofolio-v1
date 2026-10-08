@@ -1,7 +1,6 @@
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faStar } from "@fortawesome/free-regular-svg-icons";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 import Link from "next/link";
 
 const YoutubeSection = () => {
@@ -125,7 +124,7 @@ const YoutubeSection = () => {
                                         </div>
                                         <div className={`flex flex-col items-end`}>
                                             <div className={`w-6 h-[4px] bg-gray-500`}></div>
-                                            <div className={`w-7 h-[1px] rounded-xs bg-green-700 mt-1`}></div>                                            
+                                            <div className={`w-7 h-[1px] rounded-xs bg-green-700 mt-1`}></div>
                                         </div>
                                     </div>
                                 </div>
@@ -150,7 +149,7 @@ const YoutubeSection = () => {
                                         </div>
                                         <div className={`flex flex-col items-end`}>
                                             <div className={`w-6 h-[4px] bg-gray-500`}></div>
-                                            <div className={`w-7 h-[1px] rounded-xs bg-green-700 mt-1`}></div>                                            
+                                            <div className={`w-7 h-[1px] rounded-xs bg-green-700 mt-1`}></div>
                                         </div>
                                     </div>
                                 </div>
@@ -175,7 +174,7 @@ const YoutubeSection = () => {
                                         </div>
                                         <div className={`flex flex-col items-end`}>
                                             <div className={`w-6 h-[4px] bg-gray-500`}></div>
-                                            <div className={`w-7 h-[1px] rounded-xs bg-green-700 mt-1`}></div>                                            
+                                            <div className={`w-7 h-[1px] rounded-xs bg-green-700 mt-1`}></div>
                                         </div>
                                     </div>
                                 </div>
@@ -200,7 +199,7 @@ const YoutubeSection = () => {
                                         </div>
                                         <div className={`flex flex-col items-end`}>
                                             <div className={`w-6 h-[4px] bg-gray-500`}></div>
-                                            <div className={`w-7 h-[1px] rounded-xs bg-green-700 mt-1`}></div>                                            
+                                            <div className={`w-7 h-[1px] rounded-xs bg-green-700 mt-1`}></div>
                                         </div>
                                     </div>
                                 </div>
@@ -225,7 +224,7 @@ const YoutubeSection = () => {
                                         </div>
                                         <div className={`flex flex-col items-end`}>
                                             <div className={`w-6 h-[4px] bg-gray-500`}></div>
-                                            <div className={`w-7 h-[1px] rounded-xs bg-green-700 mt-1`}></div>                                            
+                                            <div className={`w-7 h-[1px] rounded-xs bg-green-700 mt-1`}></div>
                                         </div>
                                     </div>
                                 </div>
@@ -281,16 +280,18 @@ const YoutubeSection = () => {
                 </div>
             </div>
             <div className="col-span-2 z-10">
-                <p className={`text-neutral-200 font-medium`}>
-                    Not convinced yet?
-                </p>
+                <div className="flex items-center space-x-2">
+                    <p className={`text-neutral-200 font-medium`}>
+                        Youtube Channel
+                    </p>
+                    <Image src="/assets/youtube.png" alt="Youtube Channel" width={20} height={20} className="rounded-full"/>
+                </div>
                 <h1 className={`text-4xl font-semibold text-neutral-100`}>
                     Take a quick look at my skills
                 </h1>
                 <p className={`mt-5 text-xl text-justify md:text-left text-neutral-200`}>
-                    I share some of my coding experiments on my YouTube channel.  
-                    It’s not a big channel, but it’s where I show what I enjoy building.  
-                    If you're curious about what I can actually do, that’s a good place to start.
+                    I used to share some of my frontend coding experiments on my YouTube channel.
+                    It’s not a big channel, but it’s where I show what I enjoy building.
                 </p>
                 <Link href="https://www.youtube.com/@codewithgi" target="_blank" className={`mt-8 text-xl flex items-center group text-neutral-100 hover:text-red-500`}>
                     <span>
