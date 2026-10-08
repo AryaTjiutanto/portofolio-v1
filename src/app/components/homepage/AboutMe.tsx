@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
-const AboutMe = ({colorThemeData}) => {
+const AboutMe = () => {
     const codeString = `public function handleWebhook(Request $request)
 {
     $payload = $request->getContent();
@@ -35,12 +35,12 @@ const AboutMe = ({colorThemeData}) => {
 
     return (
         <section className={`w-full flex flex-col-reverse xl:grid xl:grid-cols-5 gap-x-14 2xl:gap-x-20 place-items-center px-10 md:px-36 lg:px-44 xl:px-52 2xl:px-96 duration-100 relative overflow-x-hidden py-12 md:py-32`}>
-            <div className={`w-full h-[25rem] 2xl:h-[30rem] p-16 md:col-span-3 ${colorThemeData.display1BackgroundColor} flex flex-col justify-end z-10 rounded-lg md:rounded-xl lg:rounded-3xl relative font-oswald overflow-hidden group hover:shadow-2xl shadow-gray-800 cursor-pointer mt-8 xl:mt-0`}>
+            <div className={`w-full h-[25rem] 2xl:h-[30rem] p-16 md:col-span-3 bg-white flex flex-col justify-end z-10 rounded-lg md:rounded-xl lg:rounded-3xl relative font-oswald overflow-hidden group hover:shadow-2xl shadow-gray-800 cursor-pointer mt-8 xl:mt-0`}>
                 <div className="absolute top-6 right-5 md:right-10 text-right">
-                    <h2 className={`font-medium md:text-lg ${colorThemeData.display1DescriptionColor}`}>
+                    <h2 className={`font-medium md:text-lg text-neutral-600`}>
                         Coding
                     </h2>
-                    <h1 className={`text-2xl md:text-3xl font-bold ${colorThemeData.display1HeadingColor}`}>
+                    <h1 className={`text-2xl md:text-3xl font-bold text-neutral-900`}>
                         More Than Just Hello World
                     </h1>
                 </div>
@@ -182,11 +182,11 @@ const AboutMe = ({colorThemeData}) => {
                 </div>
             </div>
             <div className="md:col-span-2 z-10">
-                <p className={`${colorThemeData.descriptionTextColor} font-medium`}>Hello There, </p>
-                <h1 className={`text-4xl md:text-5xl lg:text-6xl font-semibold ${colorThemeData.headingTextColor}`}>
+                <p className={`text-neutral-200 font-medium`}>Hello There, </p>
+                <h1 className={`text-4xl md:text-5xl lg:text-6xl font-semibold text-neutral-100`}>
                     I'm Arya Tjiutanto
                 </h1>
-                <p className={`mt-5 text-lg md:text-2xl xl:text-lg 2xl:text-2xl ${colorThemeData.descriptionTextColor} text-justify xl:text-left`}>
+                <p className={`mt-5 text-lg md:text-2xl xl:text-lg 2xl:text-2xl text-neutral-200 text-justify xl:text-left`}>
                     I have nearly 3 years of experience in web development.
                     I understand how a high-quality website can boost user satisfaction and engagement.  
                     If you're looking to build a website, feel free to contact me — especially if it's with Laravel or React. I'm practically married to both of them!

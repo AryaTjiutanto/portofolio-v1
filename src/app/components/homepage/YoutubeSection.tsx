@@ -4,15 +4,15 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 
-const YoutubeSection = ({colorThemeData}) => {
+const YoutubeSection = () => {
     return (
         <section className={`w-full flex flex-col-reverse xl:grid xl:grid-cols-5 gap-x-14 2xl:gap-x-20 place-items-center px-10 md:px-36 lg:px-44 xl:px-52 2xl:px-96 duration-100 relative overflow-x-hidden py-12 md:py-32 selection:bg-red-400`}>
-            <div className={`w-full h-[20rem] lg:h-[25rem] p-14 col-span-3 ${colorThemeData.display1BackgroundColor} flex flex-col justify-end z-10 rounded-xl lg:rounded-3xl relative font-oswald group hover:shadow-2xl shadow-gray-800 cursor-pointer duration-300 overflow-hidden mt-7 xl:mt-0`}>
+            <div className={`w-full h-[20rem] lg:h-[25rem] p-14 col-span-3 bg-white flex flex-col justify-end z-10 rounded-xl lg:rounded-3xl relative font-oswald group hover:shadow-2xl shadow-gray-800 cursor-pointer duration-300 overflow-hidden mt-7 xl:mt-0`}>
                 <div className="absolute top-6 right-5 md:right-10 text-right">
-                    <h2 className={`font-medium md:text-lg ${colorThemeData.display1DescriptionColor}`}>
+                    <h2 className={`font-medium md:text-lg text-neutral-600`}>
                         Repository
                     </h2>
-                    <h1 className={`text-2xl md:text-3xl font-bold ${colorThemeData.display1HeadingColor}`}>
+                    <h1 className={`text-2xl md:text-3xl font-bold text-neutral-900`}>
                         Every project has its GitHub repo!
                     </h1>
                 </div>
@@ -281,18 +281,18 @@ const YoutubeSection = ({colorThemeData}) => {
                 </div>
             </div>
             <div className="col-span-2 z-10">
-                <p className={`${colorThemeData.descriptionTextColor} font-medium`}>
+                <p className={`text-neutral-200 font-medium`}>
                     Not convinced yet?
                 </p>
-                <h1 className={`text-4xl font-semibold ${colorThemeData.headingTextColor}`}>
+                <h1 className={`text-4xl font-semibold text-neutral-100`}>
                     Take a quick look at my skills
                 </h1>
-                <p className={`mt-5 text-xl text-justify md:text-left ${colorThemeData.descriptionTextColor}`}>
+                <p className={`mt-5 text-xl text-justify md:text-left text-neutral-200`}>
                     I share some of my coding experiments on my YouTube channel.  
                     It’s not a big channel, but it’s where I show what I enjoy building.  
                     If you're curious about what I can actually do, that’s a good place to start.
                 </p>
-                <Link href="https://www.youtube.com/@codewithgi" target="_blank" className={`mt-8 text-xl flex items-center group ${colorThemeData.headingTextColor} ${colorThemeData.textHoverRedColor}`}>
+                <Link href="https://www.youtube.com/@codewithgi" target="_blank" className={`mt-8 text-xl flex items-center group text-neutral-100 hover:text-red-500`}>
                     <span>
                         Let's see
                     </span>

@@ -1,13 +1,13 @@
-const MySpecialitiesSection = ({colorThemeData}) => {
+const MySpecialitiesSection = () => {
     return (
         <section className={`w-full flex flex-col
          xl:grid xl:grid-cols-9 2xl:grid-cols-5 gap-x-14 2xl:gap-x-20 place-items-center px-10 md:px-36 lg:px-44 xl:px-52 2xl:px-96 duration-100 relative overflow-x-hidden py-12 md:py-32`}>
             <div className="col-span-5 2xl:col-span-3 z-10">
-                <p className={`${colorThemeData.descriptionTextColor} font-medium`}>See more,</p>
-                <h1 className={`text-4xl md:text-6xl font-semibold ${colorThemeData.headingTextColor}`}>
+                <p className={`text-neutral-200 font-medium`}>See more,</p>
+                <h1 className={`text-4xl md:text-6xl font-semibold text-neutral-100`}>
                     My Specialties
                 </h1>
-                <p className={`mt-5 md:text-xl ${colorThemeData.descriptionTextColor} text-justify 2xl:text-left`}>
+                <p className={`mt-5 md:text-xl text-neutral-200 text-justify 2xl:text-left`}>
                     I'm familiar with various types of website projects, including portfolios, business profiles, marketplaces, and customized web applications.  
                     I regularly build features like CRUD operations, payment gateway integration, user authentication (via email/password, phone number, or Google), OTP verification, and much more.
                     <br/><br/>
@@ -16,12 +16,12 @@ const MySpecialitiesSection = ({colorThemeData}) => {
                     Don’t worry about your project — I’m a professional Google searcher. If I ever get stuck, you can bet I’ll find the answer (probably on Stack Overflow at 3 AM 😄).
                 </p>
             </div>
-            <div className={`w-full h-[25rem] xl:h-[30rem] hover:shadow-2xl shadow-gray-800 p-14 col-span-4 2xl:col-span-2 ${colorThemeData.display1BackgroundColor} flex flex-col justify-end z-10 rounded-lg lg:rounded-3xl relative overflow-hidden font-oswald duration-300 cursor-pointer group mt-7 xl:mt-0`}>
+            <div className={`w-full h-[25rem] xl:h-[30rem] hover:shadow-2xl shadow-gray-800 p-14 col-span-4 2xl:col-span-2 bg-white flex flex-col justify-end z-10 rounded-lg lg:rounded-3xl relative overflow-hidden font-oswald duration-300 cursor-pointer group mt-7 xl:mt-0`}>
                 <div className="absolute top-6 right-5 md:right-10 text-right">
-                    <h2 className={`font-medium md:text-lg ${colorThemeData.display1DescriptionColor}`}>
+                    <h2 className={`font-medium md:text-lg text-neutral-600`}>
                         Fullstack
                     </h2>
-                    <h1 className={`text-xl md:text-3xl font-bold ${colorThemeData.display1HeadingColor}`}>
+                    <h1 className={`text-xl md:text-3xl font-bold text-neutral-900`}>
                         Web Development
                     </h1>
                 </div>
