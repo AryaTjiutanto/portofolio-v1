@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const MyProject = () => {
     return (
-        <section className="w-full px-6 md:px-36 lg:px-44 xl:px-52 2xl:px-96 relative py-12 md:py-32 text-neutral-300 flex flex-col items-center z-10">
+        <section className="w-full px-6 md:px-36 lg:px-44 xl:px-52 2xl:px-96 relative py-12 md:py-32 text-neutral-300 flex flex-col items-center z-10" id="my-projects">
             <div className="space-y-4 text-center">
                 <h1 className="text-2xl md:text-3xl xl:text-5xl font-bold text-white">
                     My Projects
@@ -17,10 +17,10 @@ const MyProject = () => {
             </div>
 
             <div className="w-full mt-10 flex flex-col gap-10">
-                <div className="sticky top-10 w-full h-[550px] rounded-2xl border border-neutral-300 overflow-hidden bg-neutral-950">
+                <div className="sticky top-10 w-full h-100 md:h-130 lg:h-auto lg:aspect-[1.8] rounded-2xl border border-neutral-300 overflow-hidden bg-neutral-950">
                     <Image src="/assets/project/odiano.webp" alt="Odiano" fill className="object-cover object-center" />
 
-                    <div className="absolute grid place-content-center sm:place-content-between p-6 bottom-0 left-0 sm:bottom-10 sm:left-10 z-10 max-w-full sm:max-w-[45%] text-white">
+                    <div className="absolute grid place-content-center sm:place-content-between p-6 bottom-0 left-0 sm:bottom-10 sm:left-10 z-10 max-w-full md:max-w-[80%] lg:max-w-[45%] text-white">
                         <div className="space-y-0">
                             <h1 className="font-black text-3xl">Odiano</h1>
                             <h2 className="text-xs text-neutral-400">Sept 2026</h2>
@@ -61,10 +61,10 @@ const MyProject = () => {
                     <div className="absolute inset-0 z-[1] bg-gradient-to-t from-black/0 to-neutral-700/10 pointer-events-none" />
                 </div>
 
-                <div className="sticky top-12 w-full h-[550px] rounded-2xl border border-neutral-300 overflow-hidden bg-neutral-950">
+                <div className="sticky top-12 w-full h-100 md:h-130 lg:h-auto lg:aspect-[1.8] rounded-2xl border border-neutral-300 overflow-hidden bg-neutral-950">
                     <Image src="/assets/project/tokosl88.webp" alt="Odiano" fill className="object-cover object-center" />
 
-                    <div className="absolute grid place-content-center sm:place-content-between p-6 bottom-0 left-0 sm:bottom-10 sm:left-10 z-10 max-w-full sm:max-w-[45%] text-white">
+                    <div className="absolute grid place-content-center sm:place-content-between p-6 bottom-0 left-0 sm:bottom-10 sm:left-10 z-10 max-w-full md:max-w-[80%] lg:max-w-[45%] text-white">
                         <div className="space-y-0">
                             <h1 className="font-black text-3xl">Tokosl88</h1>
                             <h2 className="text-xs text-neutral-400">Desc 2025</h2>

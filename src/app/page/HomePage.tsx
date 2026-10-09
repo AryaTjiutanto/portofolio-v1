@@ -6,7 +6,6 @@ import Footer from "../components/ui/Footer";
 import AboutMe from "../components/homepage/AboutMe";
 import YoutubeSection from "../components/homepage/YoutubeSection";
 import HeroSection from "../components/homepage/HeroSection";
-import MySpecialitiesSection from "../components/homepage/MySpecialitiesSection";
 import MySkillsSection from "../components/homepage/MySkillsSection";
 import Navbar from "../components/ui/Navbar";
 import SmoothScroll from "../components/SmoothScroll";
@@ -15,7 +14,7 @@ import MyProject from "../components/homepage/MyProjects";
 
 export default function HomePage() {
     return (
-        <div className={`bg-neutral-950 selection:bg-indigo-500 w-full min-h-screen relative overflow-x-clip`}>
+        <div className={`bg-neutral-950 selection:bg-indigo-500 w-full min-h-screen relative overflow-x-clip duration-150`}>
             <LoaderWrapper />
             {/* smooth scroll */}
             <SmoothScroll />

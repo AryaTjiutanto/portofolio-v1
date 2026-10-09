@@ -1,6 +1,7 @@
 import { faWindowMaximize } from "@fortawesome/free-regular-svg-icons";
 import { faArrowRight, faMinus, faX } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
@@ -183,11 +184,21 @@ const AboutMe = () => {
                     I'm a web developer who started learning frontend development in 2020 and expanded into full-stack development in 2024. Most of my learning has come through building projects, experimenting with different technologies, and solving problems along the way.
                 </p>
 
-                <button className="mt-5 px-7 h-12 bg-neutral-100 hover:bg-violet-500 hover:text-white duration-100 flex items-center space-x-3 group cursor-pointer">
-                    <span>
-                        See my projects
-                    </span>
-                    <FontAwesomeIcon icon={faArrowRight} className="group-hover:rotate-90 duration-100"/>
+                <button
+                    onClick={(e) => {
+                        e.preventDefault();
+
+                        document.getElementById("my-projects")?.scrollIntoView({
+                            behavior: "smooth",
+                        });
+                    }}
+                    className="w-fit mt-5 px-7 h-12 bg-neutral-100 hover:bg-violet-500 hover:text-white duration-100 flex items-center space-x-3 group cursor-pointer"
+                >
+                    <span>See my projects</span>
+                    <FontAwesomeIcon
+                        icon={faArrowRight}
+                        className="group-hover:rotate-90 duration-100"
+                    />
                 </button>
             </div>
         </section>

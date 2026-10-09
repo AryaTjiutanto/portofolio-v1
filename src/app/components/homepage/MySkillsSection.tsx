@@ -4,7 +4,7 @@ const MySkillsSection = () => {
             <h1 className={`text-3xl md:text-6xl text-center font-semibold z-10 text-neutral-100`}>
                 My Skills
             </h1>
-            <div className={`w-full grid lg:grid-cols-3 gap-5 mt-16`}>
+            <div className={`w-full grid lg:grid-cols-3 gap-5 mt-7 sm:mt-16`}>
                 <div className={`w-full h-full p-5 py-7 border rounded-md bg-neutral-900 border-neutral-600 z-10 selection:bg-sky-600 z-[2]`}>
                     <div className="w-fit p-2 bg-neutral-900">
                         <h1 className={`text-sm w-full text-orange-200 text-neutral-100`}>
