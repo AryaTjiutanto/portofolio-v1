@@ -1,6 +1,6 @@
 const MySkillsSection = () => {
     return (
-        <section className={`w-full gap-x-20 place-items-center px-10 md:px-36 xl:px-40 2xl:px-96 duration-100 relative overflow-x-hidden py-12 md:py-32 z-[2]`}>
+        <section className={`w-full gap-x-20 place-items-center px-6 md:px-36 xl:px-40 2xl:px-96 duration-100 relative overflow-x-hidden py-12 md:py-32 z-[2]`}>
             <h1 className={`text-3xl md:text-6xl text-center font-semibold z-10 text-neutral-100`}>
                 My Skills
             </h1>

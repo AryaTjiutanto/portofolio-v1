@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const YoutubeSection = () => {
     return (
-        <section className={`w-full flex flex-col-reverse xl:grid xl:grid-cols-5 gap-x-14 2xl:gap-x-20 place-items-center px-10 md:px-36 lg:px-44 xl:px-52 2xl:px-96 duration-100 relative overflow-x-hidden py-12 md:py-32 selection:bg-red-400`}>
+        <section className={`w-full flex flex-col-reverse xl:grid xl:grid-cols-5 gap-x-14 2xl:gap-x-20 place-items-center px-6 md:px-36 lg:px-44 xl:px-52 2xl:px-96 duration-100 relative overflow-x-hidden py-12 md:py-32 selection:bg-red-400`}>
             <div className={`w-full h-[20rem] lg:h-[25rem] p-14 col-span-3 bg-white flex flex-col justify-end z-10 rounded-xl lg:rounded-3xl relative font-oswald group hover:shadow-2xl shadow-gray-800 cursor-pointer duration-300 overflow-hidden mt-7 xl:mt-0`}>
                 <div className="absolute top-6 right-5 md:right-10 text-right">
                     <h2 className={`font-medium md:text-lg text-neutral-600`}>

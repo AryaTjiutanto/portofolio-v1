@@ -24,7 +24,7 @@ export default function LoaderWrapper() {
 
   return (
     <section
-      className={`fixed inset-0 flex items-center justify-center bg-neutral-900 text-white text-xl p-5 text-center z-50 transition-opacity duration-300 ${
+      className={`fixed inset-0 flex items-center justify-center bg-black text-white text-xl p-5 text-center z-50 transition-opacity duration-300 ${
         isFading ? 'opacity-0' : 'opacity-100'
       }`}
     >

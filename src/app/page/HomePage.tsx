@@ -15,7 +15,7 @@ import MyProject from "../components/homepage/MyProjects";
 
 export default function HomePage() {
     return (
-        <div className={`bg-neutral-950 selection:bg-indigo-500 w-full min-h-screen relative overflow-x-hidden`}>
+        <div className={`bg-neutral-950 selection:bg-indigo-500 w-full min-h-screen relative overflow-x-clip`}>
             <LoaderWrapper />
             {/* smooth scroll */}
             <SmoothScroll />
@@ -42,7 +42,7 @@ export default function HomePage() {
             <MySkillsSection />
 
             {/* My Projects */}
-            {/* <MyProject /> */}
+            <MyProject />
 
             {/* youtube */}
             <YoutubeSection />

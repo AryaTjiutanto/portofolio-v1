@@ -1,7 +1,7 @@
 const MySpecialitiesSection = () => {
     return (
         <section className={`w-full flex flex-col
-         xl:grid xl:grid-cols-9 2xl:grid-cols-5 gap-x-14 2xl:gap-x-20 place-items-center px-10 md:px-36 lg:px-44 xl:px-52 2xl:px-96 duration-100 relative overflow-x-hidden py-12 md:py-32`}>
+         xl:grid xl:grid-cols-9 2xl:grid-cols-5 gap-x-14 2xl:gap-x-20 place-items-center px-6 md:px-36 lg:px-44 xl:px-52 2xl:px-96 duration-100 relative overflow-x-hidden py-12 md:py-32`}>
             <div className="col-span-5 2xl:col-span-3 z-10">
                 <p className={`text-neutral-200 font-medium`}>See more,</p>
                 <h1 className={`text-4xl md:text-6xl font-semibold text-neutral-100`}>
