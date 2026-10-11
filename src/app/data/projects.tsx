@@ -38,13 +38,22 @@ export const projects : Project[] = [
         date: "March 2025",
     },
     {
-        title : "Antelocode Portfolio",
+        title : "Antelocode",
         description: "A portfolio website for Antelocode, my freelance development profile.",
         techs: ["Next.js", "TailwindCSS"],
         liveDemo: "https://antelocode.vercel.app/",
         github: null,
         image: "/assets/project/antelocode.webp",
         date: "Oct 2024",
+    },
+    {
+        title : "Usercloud",
+        description: "A single company landing page I make for studying.",
+        techs: ["Next.js", "TailwindCSS"],
+        liveDemo: "https://usercloud-mauve.vercel.app/",
+        github: "https://github.com/AryaTjiutanto/usercloud",
+        image: "/assets/project/UserCloud.webp",
+        date: "April 2024",
     },
     {
         title : "Cinehunt",
@@ -54,5 +63,14 @@ export const projects : Project[] = [
         github: null,
         image: "/assets/project/cinehunt.webp",
         date: "Oct 2023",
+    },
+    {
+        title : "Phont",
+        description: "A fake company website i made for study, this website has no responsive design, and yes, this one is look like a joke too 😅.",
+        techs: ["HTML", "CSS", "Javascript"],
+        liveDemo: "https://aryatjiutanto.github.io/phont/",
+        github: "https://github.com/AryaTjiutanto/phont",
+        image: "/assets/project/phont.webp",
+        date: "Sept 2022",
     }
 ];
