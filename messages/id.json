@@ -1,0 +1,62 @@
+{
+    "homepage": {
+        "heroSection": {
+            "great1": "Saya programmer asal Indonesia",
+            "great2": "yang suka bikin sesuatu lewat kode, benci sama bug, dan masih terus nyari cara terbaik buat ngatasinnya.",
+            "funfact1": "Saya suka",
+            "funfact2": "bulu tangkis dan mie ayam."
+        },
+        "aboutMe": {
+            "cardTitle": "Lebih Dari Sekadar Hello World",
+            "sectionLabel": "Halo semua, ",
+            "sectionTitle": "Saya Arya Tjiutanto",
+            "sectionContent": "Saya seorang web developer yang mulai belajar frontend di tahun 2020 dan berkembang ke full-stack di tahun 2024.",
+            "sectionButton": "Lihat proyek saya"
+        },
+        "skills": {
+            "sectionTitle": "Keahlian Saya",
+            "languageCardTitle": "languages.json",
+            "databaseCardTitle": "databases.json",
+            "technologyCardTitle": "technologies.json"
+        },
+        "projects": {
+            "sectionTitle": "Proyek Saya",
+            "sectionDescription": "Proyek saya nggak terlalu banyak, soalnya saya lebih sering ngabisin waktu buat ngedalemin topik tertentu. Ini beberapa proyek yang sempat saya buat. 😅",
+            "odiano": {
+                "description": "Platform media sosial yang dibuat untuk berbagi postingan, nyari konten menarik, dan terhubung sama pengguna lain."
+            },
+            "tokosl88": {
+                "description": "Landing page company profile untuk Tokosl88, sebuah toko retail di Tangerang. Dibuat buat nampilin produk unggulan dan langsung ngehubungin pelanggan ke info toko."
+            },
+            "arthahub": {
+                "description": "Yang satu ini emang kelihatan bercanda sih 😅. Saya buat ini buat tugas PKn pas SMA. Kalau mau coba, kamu cuma bisa buka halaman utama, dashboard, sama halaman di link cepat (Tentang arthahub -> link cepat)."
+            },
+            "antelocode": {
+                "description": "Website portofolio untuk Antelocode, profil layanan freelance development saya."
+            },
+            "usercloud": {
+                "description": "Landing page perusahaan sederhana yang saya buat buat bahan latihan."
+            },
+            "cinehunt": {
+                "description": "Website database film buat para pecinta sinema. Saya buat ini buat belajar cara pakai API pihak ketiga."
+            },
+            "phont": {
+                "description": "Website perusahaan buatan yang saya bikin buat latihan. Website ini belum responsif, dan ya, yang satu ini juga kelihatan agak bercanda 😅."
+            }
+        },
+        "youtube": {
+            "cardTitle": "Setiap proyek ada repo GitHub-nya!",
+
+            "sectionTitle": "Tonton singkat keahlian saya",
+            "sectionDescription": "Dulu saya suka ngebagiin beberapa eksperimen ngoding frontend di channel YouTube saya. Channel-nya gak besar, tapi di sana saya nampilin hal-hal yang saya suka buat.",
+            "sectionButton": "Tonton sekarang"
+        },
+        "footer": {
+            "sectionTitle": "Saya selalu terbuka buat ngobrol — walau cuma cerita random sekalipun",
+            "whatsappText": "Yuk ngobrol di WhatsApp",
+
+            "fiverrPromotion1": "Saya juga punya akun ",
+            "fiverrPromotion2": " — kalau kamu mau cara kerja sama yang lebih aman dan terjamin, langsung aja hubungi saya di sana!"
+        }
+    }
+}

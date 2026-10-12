@@ -4,16 +4,19 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
 import { projects } from "../../data/projects";
+import { useTranslations } from "next-intl";
 
 const MyProject = () => {
+    const t = useTranslations("homepage.projects");
+
     return (
         <section className="w-full px-6 md:px-36 lg:px-44 xl:px-52 2xl:px-96 relative py-12 md:py-32 text-neutral-300 flex flex-col items-center z-10" id="my-projects">
             <div className="space-y-4 text-center">
                 <h1 className="text-2xl md:text-3xl xl:text-5xl font-bold text-white">
-                    My Projects
+                    {t('sectionTitle')}
                 </h1>
                 <p className="text-center text-lg">
-                    I don't have many projects, as I tend to spend more time diving deep into specific topics. Here are some of the projects I've built along the way. 😅
+                   {t('sectionDescription')}
                 </p>
             </div>
 
@@ -31,7 +34,7 @@ const MyProject = () => {
                             </div>
 
                             <p className="mt-2 text-sm leading-relaxed text-neutral-200">
-                                {project.description}
+                                {t(project.descriptionKey)}
                             </p>
                             <div className="flex flex-wrap gap-2 mt-4 max-w-full">
                                 {project.techs.map((tech) => (

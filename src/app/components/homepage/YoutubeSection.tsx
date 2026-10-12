@@ -1,9 +1,12 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 
 const YoutubeSection = () => {
+    const t = useTranslations('homepage.youtube');
+
     return (
         <section className={`w-full flex flex-col-reverse xl:grid xl:grid-cols-5 gap-x-14 2xl:gap-x-20 place-items-center px-6 md:px-36 lg:px-44 xl:px-52 2xl:px-96 duration-100 relative overflow-x-hidden py-12 md:py-32 selection:bg-red-400`}>
             <div className={`w-full h-[20rem] lg:h-[25rem] p-14 col-span-3 bg-white flex flex-col justify-end z-10 rounded-xl lg:rounded-3xl relative font-oswald group hover:shadow-2xl shadow-gray-800 cursor-pointer duration-300 overflow-hidden mt-7 xl:mt-0`}>
@@ -12,7 +15,7 @@ const YoutubeSection = () => {
                         Repository
                     </h2>
                     <h1 className={`text-2xl md:text-3xl font-bold text-neutral-900`}>
-                        Every project has its GitHub repo!
+                        {t("cardTitle")}
                     </h1>
                 </div>
 
@@ -287,15 +290,14 @@ const YoutubeSection = () => {
                     <Image src="/assets/youtube.png" alt="Youtube Channel" width={20} height={20} className="rounded-full"/>
                 </div>
                 <h1 className={`text-4xl font-semibold text-neutral-100`}>
-                    Take a quick look at my skills
+                    {t('sectionTitle')}
                 </h1>
                 <p className={`mt-5 text-xl text-justify md:text-left text-neutral-200`}>
-                    I used to share some of my frontend coding experiments on my YouTube channel.
-                    It’s not a big channel, but it’s where I show what I enjoy building.
+                   {t('sectionDescription')}
                 </p>
                 <Link href="https://www.youtube.com/@codewithgi" target="_blank" className={`mt-8 text-xl flex items-center group text-neutral-100 hover:text-red-500`}>
                     <span>
-                        Let's see
+                        {t('sectionButton')}
                     </span>
                     <div className="w-5 group-hover:w-10 duration-100"></div>
                     <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon>

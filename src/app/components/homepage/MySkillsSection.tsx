@@ -1,14 +1,18 @@
+import { useTranslations } from "next-intl";
+
 const MySkillsSection = () => {
+    const t = useTranslations("homepage.skills");
+
     return (
         <section className={`w-full gap-x-20 place-items-center px-6 md:px-36 xl:px-40 2xl:px-96 duration-100 relative overflow-x-hidden py-12 md:py-32 z-[2]`}>
             <h1 className={`text-3xl md:text-6xl text-center font-semibold z-10 text-neutral-100`}>
-                My Skills
+                {t("sectionTitle")}
             </h1>
             <div className={`w-full grid lg:grid-cols-3 gap-5 mt-7 sm:mt-16`}>
                 <div className={`w-full h-full p-5 py-7 border rounded-md bg-neutral-900 border-neutral-600 z-10 selection:bg-sky-600 z-[2]`}>
                     <div className="w-fit p-2 bg-neutral-900">
                         <h1 className={`text-sm w-full text-orange-200 text-neutral-100`}>
-                            languages.json
+                            {t('languageCardTitle')}
                         </h1>
                     </div>
 
@@ -33,7 +37,7 @@ const MySkillsSection = () => {
                 <div className={`w-full h-full p-5 py-7 border rounded-md bg-neutral-900 border-neutral-600 z-10 selection:bg-sky-600`}>
                     <div className="w-fit p-2 bg-neutral-900">
                         <h1 className={`text-sm w-full text-orange-200 text-neutral-100`}>
-                            databases.json
+                            {t('databaseCardTitle')}
                         </h1>
                     </div>
 
@@ -56,7 +60,7 @@ const MySkillsSection = () => {
                 <div className={`w-full h-full p-5 py-7 border rounded-md bg-neutral-900 border-neutral-600 z-10 selection:bg-sky-600`}>
                     <div className="w-fit p-2 bg-neutral-900">
                         <h1 className={`text-sm w-full text-orange-200 text-neutral-100`}>
-                            technologies.json
+                            {t('technologyCardTitle')}
                         </h1>
                     </div>
 

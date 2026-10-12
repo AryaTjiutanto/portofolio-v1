@@ -1,4 +1,4 @@
-import HomePage from "./page/HomePage";
+import HomePage from "../page/HomePage";
 
 export const metadata = {
   title: 'Arya Tjiutanto 😎',

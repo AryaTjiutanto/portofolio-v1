@@ -1,8 +1,8 @@
 
 type Project = {
     title: string;
-    description: string;
     techs: string[];
+    descriptionKey : string,
     liveDemo: string;
     github: string | null;
     image: string;
@@ -12,7 +12,7 @@ type Project = {
 export const projects : Project[] = [
     {
         title: "Odiano",
-        description: "A social media platform built for sharing posts, discovering content, and connecting with others.",
+        descriptionKey: "odiano.description",
         techs: ["MongoDB", "Express.js", "React", "Node.js", "TypeScript", "Redis", "BullMQ"],
         liveDemo: "https://odiano.vercel.app/",
         github: "https://github.com/AryaTjiutanto/odiano",
@@ -21,7 +21,7 @@ export const projects : Project[] = [
     },
     {
         title: "Tokosl88",
-        description: "Company profile landing page for Tokosl88, a retail store in Tangerang. Built to highlight product offerings and connect customers directly to store info.",
+        descriptionKey: "tokosl88.description",
         techs: ["HTML", "TailwindCSS", "Javascript"],
         liveDemo: "https://www.tokosl88.com/",
         github: null,
@@ -30,7 +30,7 @@ export const projects : Project[] = [
     },
     {
         title : "Arthahub",
-        description: "This one look like a joke 😅, indeed. I build this for my civics class in high school. If you want to try it out, You can only visit homepage, dashboard and page in quick link (Tentang arthahub -> link cepat). I'm not sure if I will continue to develop this project, but I'm still proud of it.",
+        descriptionKey: "arthahub.description",
         techs: ["Next.js", "TailwindCSS", "firebase"],
         liveDemo: "https://arthahub-12.vercel.app/",
         github: "https://github.com/AryaTjiutanto/arthahub-12",
@@ -39,7 +39,7 @@ export const projects : Project[] = [
     },
     {
         title : "Antelocode",
-        description: "A portfolio website for Antelocode, my freelance development profile.",
+        descriptionKey: "antelocode.description",
         techs: ["Next.js", "TailwindCSS"],
         liveDemo: "https://antelocode.vercel.app/",
         github: null,
@@ -48,7 +48,7 @@ export const projects : Project[] = [
     },
     {
         title : "Usercloud",
-        description: "A single company landing page I make for studying.",
+        descriptionKey: "usercloud.description",
         techs: ["Next.js", "TailwindCSS"],
         liveDemo: "https://usercloud-mauve.vercel.app/",
         github: "https://github.com/AryaTjiutanto/usercloud",
@@ -57,7 +57,7 @@ export const projects : Project[] = [
     },
     {
         title : "Cinehunt",
-        description: "A movie database website for cinema lovers. I build this to learn how to use third party api.",
+        descriptionKey: "cinehunt.description",
         techs: ["React Js", "TailwindCSS"],
         liveDemo: "https://cinehunt.vercel.app/",
         github: null,
@@ -66,7 +66,7 @@ export const projects : Project[] = [
     },
     {
         title : "Phont",
-        description: "A fake company website i made for study, this website has no responsive design, and yes, this one is look like a joke too 😅.",
+        descriptionKey: "phont.description",
         techs: ["HTML", "CSS", "Javascript"],
         liveDemo: "https://aryatjiutanto.github.io/phont/",
         github: "https://github.com/AryaTjiutanto/phont",

@@ -1,13 +1,14 @@
-import { faGithub, faLinkedin, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { useState } from "react";
 import { socials } from "../../data/socials";
+import { useTranslations } from "next-intl";
+import LanguageSwitcher from "../locale/LanguageSwitcher";
 
 const HeroSection = () => {
     const [isOffcanvasOpenned, setIsOffcanvasOpenned] = useState<Boolean>(false);
+    const t = useTranslations('homepage.heroSection');
 
     const openOffcanvas = () => {
         setIsOffcanvasOpenned(true);
@@ -18,7 +19,7 @@ const HeroSection = () => {
     }
 
     return (
-        <section className={`w-full min-h-screen flex items-center px-6 md:px-36 lg:px-44 xl:px-52 2xl:px-96 duration-150 relative`}>
+        <section className={`w-full min-h-screen flex flex-col sm:flex-row justify-center items-center px-6 md:px-36 lg:px-44 xl:px-52 2xl:px-96 duration-150 relative`}>
             {/* social media links */}
             <div className={`absolute w-5 h-fit bottom-0 md:top-20 md:right-10 z-10 space-y-20 hidden md:inline-block`}>
                 {socials.map((social) => (
@@ -31,11 +32,21 @@ const HeroSection = () => {
                 ))}
             </div>
 
-            {/* offcanvas */}
-            <button className="w-12 h-12 rounded border z-5 border-neutral-100 absolute top-8 left-8 sm:hidden" onClick={openOffcanvas}>
-                <FontAwesomeIcon icon={faBars} className="text-neutral-100" />
-            </button>
+            {/* language switcher */}
+            <div className="absolute top-8 left-10 hidden sm:flex">
+                <LanguageSwitcher />
+            </div>
 
+            {/* mobile navbar */}
+            <div className="flex w-full items-center justify-between sm:hidden absolute top-7 px-6 z-1">
+                <button className="w-12 h-12 rounded border z-5 border-neutral-100" onClick={openOffcanvas}>
+                    <FontAwesomeIcon icon={faBars} className="text-neutral-100" />
+                </button>
+
+                <LanguageSwitcher />
+            </div>
+
+            {/* offcanvas */}
             <section className={`z-20 w-[75%] h-screen bg-black top-0 fixed border-r border-neutral-700 flex flex-col sm:hidden py-8 p-6 text-neutral-200 ${isOffcanvasOpenned ? "left-0" : "-left-full"} duration-100`}>
                 <div className="w-full space-y-4">
                     {
@@ -61,6 +72,7 @@ const HeroSection = () => {
                     <FontAwesomeIcon icon={faX} className="text-neutral-100" />
                 </button>
             </section>
+
             <section className={`"z-19 w-screen h-screen bg-black/30 left-0 top-0 fixed sm:hidden ${isOffcanvasOpenned ? "" : "hidden"}"`} onClick={closeOffcanvas}></section>
 
             {/* content */}
@@ -71,24 +83,23 @@ const HeroSection = () => {
                 </h1>
                 <div>
                     <div className={`text-lg md:text-xl xl:text-2xl text-neutral-200 mt-4 leading-[1.6] text-justify md:text-left`}>
-                        I'm an {" "}
                         <span className="inline-flex items-center gap-1"> {" "}
-                            Indonesian {" "}
+                            {t('great1')} {" "}
                             <div className="w-5 h-5 mr-2 rounded overflow-hidden flex flex-col">
                                 <div className="h-[50%] w-full bg-red-500"></div>
                                 <div className="h-[50%] w-full bg-white"></div>
                             </div>
                         </span> {" "}
-                        programmer who loves building things with code, hates dealing with bugs, and is still figuring out how to fix them.
+                        {t('great2')}
                     </div>
                     <div className={`text-lg md:text-xl xl:text-2xl text-neutral-200 mt-4 leading-[1.6] text-justify md:text-left`}>
-                        I like{" "}
+                        {t('funfact1')}{" "}
                         <span className={`font-medium bg-gradient-to-r from-red-500 to-orange-500 text-transparent bg-clip-text`}>
                             Laravel
                         </span>,{" "}
                         <span className={`font-medium bg-gradient-to-r from-green-500 to-teal-500 text-transparent bg-clip-text`}>
                             MERN
-                        </span> , badminton, and Chicken noodles.
+                        </span> , {t('funfact2')}
                     </div>
                 </div>
             </div>

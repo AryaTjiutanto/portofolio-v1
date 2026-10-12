@@ -1,0 +1,62 @@
+{
+    "homepage": {
+        "heroSection": {
+            "great1": "I'm an Indonesian",
+            "great2": "programmer who loves building things with code, hates dealing with bugs, and is still figuring out how to fix them.",
+            "funfact1": "I like",
+            "funfact2": "badminton, and chicken noodles."
+        },
+        "aboutMe": {
+            "cardTitle": "More Than Just Hello World",
+            "sectionLabel": "Hello there, ",
+            "sectionTitle": "I'm Arya Tjiutanto",
+            "sectionContent": "I'm a web developer who started learning frontend development in 2020 and expanded into full-stack development in 2024.",
+            "sectionButton": "See my projects"
+        },
+        "skills": {
+            "sectionTitle": "My Skills",
+            "languageCardTitle": "languages.json",
+            "databaseCardTitle": "databases.json",
+            "technologyCardTitle": "technologies.json"
+        },
+        "projects": {
+            "sectionTitle": "My Projects",
+            "sectionDescription": "I don't have many projects, as I tend to spend more time diving deep into specific topics. Here are some of the projects I've built along the way. 😅",
+            "odiano": {
+                "description": "A social media platform built for sharing posts, discovering content, and connecting with others."
+            },
+            "tokosl88": {
+                "description": "Company profile landing page for Tokosl88, a retail store in Tangerang. Built to highlight product offerings and connect customers directly to store info."
+            },
+            "arthahub": {
+                "description": "This one look like a joke 😅, indeed. I build this for my civics class in high school. If you want to try it out, You can only visit homepage, dashboard and page in quick link (Tentang arthahub -> link cepat)."
+            },
+            "antelocode": {
+                "description": "A portfolio website for Antelocode, my freelance development profile."
+            },
+            "usercloud": {
+                "description": "A single company landing page I make for studying."
+            },
+            "cinehunt": {
+                "description": "A movie database website for cinema lovers. I build this to learn how to use third party api."
+            },
+            "phont": {
+                "description": "A fake company website i made for study, this website has no responsive design, and yes, this one is look like a joke too 😅."
+            }
+        },
+        "youtube": {
+            "cardTitle" : "Every project has its GitHub repo!",
+
+            "sectionTitle": "Take a quick look at my skills",
+            "sectionDescription": "I used to share some of my frontend coding experiments on my YouTube channel. It’s not a big channel, but it’s where I show what I enjoy building.",
+            "sectionButton": "Let's see"
+        },
+        "footer" : {
+            "sectionTitle" : "I'm always open to conversations — even if it’s just a random story",
+            "whatsappText" : "Let’s chat on WhatsApp",
+
+            "fiverrPromotion1" : "I also have a ",
+            "fiverrPromotion2" : " account — if you'd like a safer and more secure way to work together, feel free to reach out to me there!"
+        }
+    }
+}

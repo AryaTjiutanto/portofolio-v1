@@ -1,6 +1,7 @@
 import { faWindowMaximize } from "@fortawesome/free-regular-svg-icons";
 import { faArrowRight, faMinus, faX } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
@@ -27,6 +28,8 @@ const AboutMe = () => {
     }
     `;
 
+    const t = useTranslations('homepage.aboutMe');
+
     return (
         <section className={`w-full flex flex-col-reverse xl:grid xl:grid-cols-5 gap-x-14 2xl:gap-x-20 place-items-center px-6 md:px-36 lg:px-44 xl:px-52 2xl:px-96 duration-100 relative overflow-x-hidden py-12 md:py-32`}>
             <div className={`w-full h-[30rem] p-16 md:col-span-3 bg-white flex flex-col justify-end z-10 rounded-lg md:rounded-xl lg:rounded-3xl relative font-oswald overflow-hidden group hover:shadow-2xl shadow-gray-800 cursor-pointer mt-8 xl:mt-0`}>
@@ -35,7 +38,7 @@ const AboutMe = () => {
                         Coding
                     </h2>
                     <h1 className={`text-2xl md:text-3xl font-bold text-neutral-900`}>
-                        More Than Just Hello World
+                        {t("cardTitle")}
                     </h1>
                 </div>
 
@@ -176,12 +179,12 @@ const AboutMe = () => {
                 </div>
             </div>
             <div className="md:col-span-2 z-10">
-                <p className={`text-neutral-200 font-medium`}>Hello There, </p>
+                <p className={`text-neutral-200 font-medium`}>{t("sectionLabel")}</p>
                 <h1 className={`text-4xl md:text-5xl lg:text-6xl font-semibold text-neutral-100`}>
-                    I'm Arya Tjiutanto
+                    {t("sectionTitle")}
                 </h1>
                 <p className={`mt-5 text-lg md:text-2xl xl:text-lg 2xl:text-2xl text-neutral-200 text-justify xl:text-left`}>
-                    I'm a web developer who started learning frontend development in 2020 and expanded into full-stack development in 2024. Most of my learning has come through building projects, experimenting with different technologies, and solving problems along the way.
+                    {t("sectionContent")}
                 </p>
 
                 <button
@@ -194,7 +197,7 @@ const AboutMe = () => {
                     }}
                     className="w-fit mt-5 px-7 h-12 bg-neutral-100 hover:bg-violet-500 hover:text-white duration-100 flex items-center space-x-3 group cursor-pointer"
                 >
-                    <span>See my projects</span>
+                    <span>{t('sectionButton')}</span>
                     <FontAwesomeIcon
                         icon={faArrowRight}
                         className="group-hover:rotate-90 duration-100"
