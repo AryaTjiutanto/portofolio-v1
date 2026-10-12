@@ -52,7 +52,7 @@ export const projects : Project[] = [
         techs: ["Next.js", "TailwindCSS"],
         liveDemo: "https://usercloud-mauve.vercel.app/",
         github: "https://github.com/AryaTjiutanto/usercloud",
-        image: "/assets/project/UserCloud.webp",
+        image: "/assets/project/usercloud.webp",
         date: "April 2024",
     },
     {
