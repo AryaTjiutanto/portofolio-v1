@@ -38,7 +38,7 @@ export const socials : Social[] = [
     {
         icon : faEnvelope,
         iconProvider : "fontawesome",
-        link : "aryatjiutanto.dev@gmail.com",
+        link : "mailto:aryatjiutanto.dev@gmail.com",
         title : "Email",
         shortDescription : "aryatjiutanto.dev@gmail.com",
         textHoverClass : "hover:text-red-500"
