@@ -62,7 +62,7 @@ export async function generateMetadata({
   return {
     title: content.title,
     description: content.description,
-    keywords: content.keywords,
+    keywords: [...content.keywords],
 
     authors: [
       {
