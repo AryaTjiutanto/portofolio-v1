@@ -23,7 +23,7 @@ const MyProject = () => {
             <div className="w-full mt-10 flex flex-col gap-10">
                 {projects.map((project) => (
                     <div key={`project-${project.title}`} className="sticky top-10 w-full h-100 md:h-130 lg:h-auto lg:aspect-[1.8] rounded-2xl border border-neutral-300 overflow-hidden bg-neutral-950">
-                        <Image src={project.image} alt="Odiano" fill className="object-cover object-top" />
+                        <Image src={project.image} alt={`Arya Tjiutanto ${project.title}`} fill className="object-cover object-top" />
 
                         <div className="absolute grid place-content-center sm:place-content-between p-6 bottom-0 left-0 sm:bottom-10 sm:left-10 z-10 max-w-full md:max-w-[80%] lg:max-w-[45%] text-white">
                             <div className="space-y-0 flex items-center space-x-3">
