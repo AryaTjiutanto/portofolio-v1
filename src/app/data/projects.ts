@@ -22,7 +22,7 @@ export const projects : Project[] = [
     {
         title: "Tokosl88",
         descriptionKey: "tokosl88.description",
-        techs: ["HTML", "TailwindCSS", "Javascript"],
+        techs: [],
         liveDemo: "https://www.tokosl88.com/",
         github: null,
         image: "/assets/project/tokosl88.webp",
