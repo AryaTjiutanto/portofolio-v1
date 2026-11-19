@@ -113,6 +113,10 @@ export async function generateMetadata({
       index: true,
       follow: true,
     },
+
+    verification : {
+      google : "KbOel-Gw_bvtSRJHiXLgPgp_VTb-hUeakCb1jBMFRps"
+    }
   };
 }
 
